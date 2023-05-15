@@ -59,8 +59,8 @@ function restartGame() {//oyun bittip yeniden basla butonuna basildiginda cagril
   bombaHiz = bombaBaslangicHiz;
   Baslat();
   butonYenidenBasla.disabled = true;
-  clearInterval(bombaOlusumHizi); // Stop bomba creation interval
-  clearInterval(bombaHizi); // Stop bomba movement interval
+  clearInterval(bombaOlusumHizi); 
+  clearInterval(bombaHizi);
 }
 
 function bombaOlustur() {
