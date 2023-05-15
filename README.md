@@ -1,6 +1,6 @@
 ## PROJE HAKKINDA
 
-Bu projede JavaScript kullanarak bir oyun oluşturmak amaçlanmıştır. Yapılış amacı Web Tabanlı Programlama proje ödevi olmasıdır.
+Bu projede JavaScript kullanarak bir oyun oluşturmak amaçlanmıştır. Yapılış amacı Web Tabanlı Programlama proje ödevi olmasıdır. Tasarımlar bana aittir.
 
 
 ## OYUNUN AMACI
