@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #oyunAlani {
+      position: relative;
+      width: 400px;
+      height: 500px;
+      border: 1px solid black;
+      margin: 0 auto;
+      background-image: url("images/3.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    #oyuncuImage {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+}
+
+.bomba {
+  position: absolute;
+  width: 50px;
+  height: 90px;
+  background-color: gray;
+}
+
+#gameOver {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#butonYenidenBasla {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#Rekor {
+  margin-top: 10px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+  <div id="oyunAlani">
+    <img id="oyuncuImage" src="images/1.png" alt="Oyuncu">
+    <div id="gameOver">
+      <h2>Oyun Bitti!</h2>
+      <button id="butonYenidenBasla">Yeniden Basla</button>
+    </div>
+  </div>
+  <div id="puan">puan:0</div>
+  <div id="Rekor">En Yuksek Skor: 0</div>
+  <p>'a' tusu ile sola 'd' tusu ile saga ilerleyerek bombalardan kac! Bombalar kusa isabet ederse oyun biter.</p>
+  <script src="oyun.js"></script>
+</body>
+</html>
